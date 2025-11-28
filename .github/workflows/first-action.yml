@@ -1,11 +1,11 @@
 name: First workflow 
 on: workflow   #for manually start the workflow thats why we mentioned workflow 
 jobs:
-  first-job:   #name of jobs 
+  first-job: 
     runs-on: ubuntu-latest #runner to run job & we find runner online , runner means OS or hosting machine
-      steps:
-        -name: Print
-          run: echo "CI/CD
-        -name: print1
-          run:  echo "done"
+    steps:
+      -name: Print
+         run: echo "CI/CD
+       -name: print1
+         run:  echo "done"
     
