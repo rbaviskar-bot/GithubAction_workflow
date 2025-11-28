@@ -6,6 +6,6 @@ jobs:
     steps:
       -name: Print
         run: echo "CI/CD"
-       -name: print1
+        -name: print1
          run:  echo "done"
     
